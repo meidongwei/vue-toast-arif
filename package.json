@@ -1,7 +1,13 @@
 {
   "name": "vue-toast-arif",
-  "version": "0.1.0",
-  "private": true,
+  "version": "2.0.2",
+  "private": false,
+  "main": "dist/js/app.js",
+  "module": "dist/js/chunk-vendors.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meidongwei/vue-toast-arif"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
